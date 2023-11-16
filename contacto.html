@@ -1,0 +1,67 @@
+<!DOCTYPE htmL>
+<html lang='es'>
+    <head>
+        <meta charset='utf-8' />
+        <link rel="stylesheet" href="style.css" type="text/CSS">
+        <title>Estructura básica de una página web en HTMLS</title>
+    </head>
+    <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href ='index.html'>Inicio</a></li>
+                <li><a href ='autobiografia.html'>Quién soy</a></li>
+                <li><a href ='galeria.html'>Galería </a></li>
+                <li><a href ='contacto.html'>Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside>
+        <p>Estas secciones pueden ser barras laterales o alguna otra disposición (asignada con estilos) </p>
+    </aside>
+    <section>
+        <p>
+        <form id="contacto" name="contacto" action="" method="post">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" type="text" name="nombre">
+
+            <fieldset>
+                <legend>Ocupación:</legend>
+                <input type="radio" name="radio1" id="radio"> Estudiante
+                <input type="radio" name="radio1" id="radio"> Profesor
+            </fieldset>
+
+            <fieldset>
+                <legend>Intereses:</legend>
+                <input type="checkbox" name="deporte" value="Deportes"> Hacer Deporte
+                <input type="checkbox"  name="tv" value="Televisión"> Ver Televisión
+                <input type="checkbox" name="ejercicio" value="Ejercicio"> Hacer Ejercicio
+            </fieldset>
+
+            <fieldset>
+                <legend>Estudios Actuales:</legend>
+                <select name="select">
+                    <option value="value1">Secundaria</option>
+                    <option value="value2">Bachillerato</option>
+                    <option value="value3">Licenciatura</option>
+                </select>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Comentarios:</legend>
+                <textarea name="textarea" rows="10" cols="50" placeholder="Escribe aquí..."></textarea>
+            </fieldset>
+
+            <input type="submit" value="Guardar">
+            <input type="reset" value="Limpiar">
+            <input type="button" value="Enviar">
+
+            <input type="submit" value="Save">
+        </form>
+        </p>
+    </section>
+    <footer>
+        Todos los derechos reservados.
+    </footer>
+    </body>
+</html>

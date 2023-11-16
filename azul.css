@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding:0;
+	margin:0;
+}	
+
+html{
+	height:101%;
+}
+
+body{
+	background-color:#9999FF;
+	color:#000000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:small;
+}
+
+#wrapper{
+	background-color:#FFFFFF;
+	color:#000000;
+	width:70%;
+	margin-top:10px;
+	margin-right:auto;
+	margin-bottom:10px;
+	margin-left:auto;
+	border:solid thin #999999
+}
+
+#encabezado{
+	background-color:#0066CC;
+	background-image:url(encabezado.png);
+	color:#FFFFFF;
+	padding-top:0;
+	padding-right:20px;
+	padding-bottom:0;
+	padding-left:20px;
+	height:100px;
+	border-bottom:solid medium #0066CC;
+}
+
+#encabezado h1{
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:150%;
+	margin-top:0;
+	margin-bottom:0;
+	padding-top:1em;
+}
+
+#encabezado h2{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:90%;
+	font-style:italic;
+	text-align:right;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+
+#navegacion{
+	text-align:right;
+	color:#000000;
+	background-color:#0066FF;
+	background-image:url(menu.png);
+	background-repeat:repeat-y;
+	padding-top:5px;
+	padding-right:20px;
+	padding-bottom:5px;
+	padding-left:20px;
+}
+
+#mavegacion ul{
+	margin-bottom: 0;
+}
+
+#navegacion li{
+	display:inline;
+	list-style-type:none;
+	margin:0 2px 0 2px;
+}
+
+#navegacion a{
+	color:#000000;
+	background-color:#0066FF;
+	padding:4px 8px 4px 8px;
+	border: 1px solid #999999;
+}
+
+#navegacion a:hover,
+#inicio #nav01 a,
+#autobiografia #nav02 a,
+#galeria #nav03 a,
+#contacto #nav04 a
+{
+	text-decoration:none;
+	color:#000000;
+	background-color:#FFFFFF;
+	padding-bottom:5px;
+	border-bottom:none;
+}
+
+#contenido{
+	padding-top:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+}
+
+#pie{
+	padding:10px;
+	border-top:5px solid #0033FF;
+	margin-top:20px;
+	background-color:#0066CC;
+	color:#FFFFFF;
+}
+
+p{
+	text-align:justify;
+}
+
+#pie p{
+	font-size:80%;
+	text-align:center;
+}
+
+h1{
+	font-size:150%;
+	margin-top:2em;
+	margin-bottom:1em;
+}
+
+h2{
+	font-size:130%;
+	margin-top:2em;
+	margin-bottom:0.5em;
+}
+
+a{
+	text-decoration:none;
+	color:#0033FF;
+}
+
+a:hover{
+	color:#3399FF;
+	text-decoration:underline;
+}
+
+img{
+  border: none;
+}
+
+.thumbnails{
+  border: none;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.thumbnails td{
+  padding: 1em;
+}
+
+.thumbnails td p{
+  text-align: center;
+  font-weight: bold;
+}
+
+
